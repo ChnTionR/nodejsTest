@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'Nothing to build for Node.js'"
+    "build": "echo 'Nothing to build for Node.js'",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
