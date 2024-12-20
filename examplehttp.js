@@ -5,7 +5,7 @@ const server = http.createServer((req,res)=>{
     console.log('${req.method} request at ${req.url}');
 
     res.setHeader('Content-Type', 'text/plain');
-    if(req.url === 'home'){
+    if(req.url === '/'){
         res.statusCode = 200;
         res.end('visting request has been welcommed');
     }else{
