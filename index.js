@@ -10,6 +10,7 @@ const server = http.createServer((req,res)=>{
         res.end('visting request has been welcommed');
     }else{
         res.statusCode = 404;
+        writeHead(404, {'Content-Type':'text-plain'});
         res.end('page not found');
     }
 });
